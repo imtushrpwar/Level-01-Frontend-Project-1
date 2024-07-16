@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #dadada;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  padding: 0 40px;
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav h3 {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#nav i {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+#nav h1 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#nav button {
+  border: 0.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#btn-1 {
+  background-color: #dadada;
+}
+
+#btn-2 {
+  background-color: orangered;
+  color: white;
+}
+
+#main > h1 {
+  /*Our Advantages */
+  font-size: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left {
+  position: absolute;
+  left: 3%;
+  bottom: 5%;
+}
+
+#btm-right {
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+}
